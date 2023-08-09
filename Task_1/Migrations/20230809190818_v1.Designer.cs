@@ -10,7 +10,7 @@ using Task_1;
 namespace Task_1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230809134937_v1")]
+    [Migration("20230809190818_v1")]
     partial class v1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

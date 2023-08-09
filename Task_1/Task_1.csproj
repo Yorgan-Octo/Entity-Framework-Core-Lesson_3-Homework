@@ -162,9 +162,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDbContext.cs" />
-    <Compile Include="Migrations\20230809134937_v1.cs" />
-    <Compile Include="Migrations\20230809134937_v1.designer.cs">
-      <DependentUpon>20230809134937_v1.cs</DependentUpon>
+    <Compile Include="Migrations\20230809190818_v1.cs" />
+    <Compile Include="Migrations\20230809190818_v1.designer.cs">
+      <DependentUpon>20230809190818_v1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AppDbContextModelSnapshot.cs" />
     <Compile Include="Object\Cart.cs" />
