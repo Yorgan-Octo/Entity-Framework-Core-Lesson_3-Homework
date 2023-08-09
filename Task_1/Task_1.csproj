@@ -161,10 +161,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cart.cs" />
+    <Compile Include="AppDbContext.cs" />
+    <Compile Include="Migrations\20230809134937_v1.cs" />
+    <Compile Include="Migrations\20230809134937_v1.designer.cs">
+      <DependentUpon>20230809134937_v1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\AppDbContextModelSnapshot.cs" />
+    <Compile Include="Object\Cart.cs" />
+    <Compile Include="Object\Category.cs" />
+    <Compile Include="Object\KeyParams.cs" />
+    <Compile Include="Object\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="Object\User.cs" />
+    <Compile Include="Object\Word.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
